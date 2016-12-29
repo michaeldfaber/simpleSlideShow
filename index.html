@@ -76,7 +76,6 @@ pre {
 <body>
     <div id="outtercontainer" class="container-fluid">
         
-        <p id="theme" style="font-size: 12px;">@michaeldfaber on Github</p>
         <p id="theme" class="header" align="center">simpleSlideShow.js</h1>
         <div class="row">
             <div class="col-md-2">
@@ -100,7 +99,7 @@ pre {
 
                     <hr class="my-2">
                     <p id="theme" align="center">
-                        Download <b><a href="#" style="font-size: 25px;">simpleSlideShow.js</a></b>
+                        Download <b><a href="simpleSlideShow.html" style="font-size: 25px;">simpleSlideShow.js</a></b>
                     </p>
                     <p id="theme" align="center" style="font-size: 15px; margin-top: -10px;">
                         A lightweight and customizable jQuery slide show plugin.
@@ -124,13 +123,19 @@ pre {
             <div class="col-md-8">
                 <h1 id="theme">Get Started</h1>
                 <hr class="my-2">
+                <h4 id="theme">Install with npm</h4>
+                <p id="theme">You can install using npm. Check out the <a href="https://www.npmjs.com/package/simpleslideshow">npm project page.</a>
+<pre>
+> npm install simpleslideshow
+</pre>
+                <br />
+                <h4 id="theme">Manual</h4>
                 <p id="theme">
-                    Include simpleSlideShow.js and jQuery.js files in your document. Use jQuery selectors to call simpleSlideShow() method 
-                    on an empty div element and quickly create a slick image rotation.
+                    Include simpleSlideShow.js and jQuery.js files in your document. You can download simpleSlideShow.js <a href="simpleSlideShow.html">here.</a> 
+                    Use jQuery selectors to call simpleSlideShow() method on an empty div element and quickly create a slick image rotation.
                 </p>
                     <br />
                 <h4 id="theme">Function Parameters</h4>
-                <hr class="my-2">
                 <div id="theme" class="row">
                     <div class="col-md-2">time: </div>
                     <div class="col-md-10">The duration each photo is shown in seconds. Decimals are allowed. Does not accept values less than or equal to zero. Defaults to 8 seconds.</div>
@@ -145,7 +150,6 @@ pre {
                 </div>
                     <br />
                 <h4 id="theme">Styling</h4>
-                <hr class="my-2">
                 <p id="theme">
                     Images inherit size and position from their parent div element. Images also maintain their 
                     aspect ratio. You can override this and directly style the img elements by using the simpleSlideShowElement css class.
@@ -166,13 +170,13 @@ pre {
         <div id="demo" class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
+                    <br />
                 <h1 id="theme">Demo</h1>
                 <hr class="my-2">
                 <h4 id="theme">The bare bones:</h4>
                 <p id="theme">
                     Making use of every default parameter, this is all you need to get a slide show started.
                 </p>
-                <hr class="my-2">
 <pre>
 &lt;div id="slideShow"&gt;&lt;/div&gt;
 
@@ -199,7 +203,6 @@ pre {
                 <p id="theme">
                     Add your own styles, classes, and values.
                 </p>
-                <hr class="my-2">
 <pre>
 &lt;style&gt;
     #slideShow {
@@ -249,5 +252,7 @@ pre {
             ]
         });
     </script>
+
+    <p id="theme" align="center" style="font-size: 12px;">@michaeldfaber on Github</p>
 </body>
 </html>
