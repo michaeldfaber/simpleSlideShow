@@ -1,0 +1,32 @@
+{
+  "name": "simpleslideshow",
+  "version": "1.0.1",
+  "description": "A jQuery Plugin for Simple Slide Shows.",
+  "main": "simpleSlideShow.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeldfaber/simpleSlideShow.git"
+  },
+  "keywords": [
+    "simple",
+    "easy",
+    "customizable",
+    "slide",
+    "show",
+    "script",
+    "photo",
+    "image",
+    "picture",
+    "gallery",
+    "jquery",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "javascript"
+  ],
+  "author": "Michael Faber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaeldfaber/simpleSlideShow/issues"
+  },
+  "homepage": "https://github.com/michaeldfaber/simpleSlideShow#readme"
+}
