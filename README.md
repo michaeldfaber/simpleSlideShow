@@ -10,10 +10,12 @@ Create an empty div:
 <div id='slideShow'></div>
 ~~~~
 
-Call simpleSlideShow():
+Call simpleSlideShow(), customize:
 ~~~~
 <script>
     $('#slideShow').simpleSlideShow({
+        time: 6,
+        transition: 2,
         urls:
         [
             "img src 01",
