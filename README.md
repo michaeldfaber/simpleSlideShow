@@ -7,12 +7,12 @@ Install using npm:
 
 Create an empty div:
 ~~~~
-&lt;div id='slideShow'&gt;%lt;/div&gt;
+<div id='slideShow'></div>
 ~~~~
 
 Call simpleSlideShow():
 ~~~~
-&lt;script&gt;
+<script>
     $('#slideShow').simpleSlideShow({
         urls:
         [
@@ -21,7 +21,7 @@ Call simpleSlideShow():
             "img src 03"
         ]
     })
-&lt;/script&gt;
+</script>
 ~~~~
 
 And you're done. Read more about it on the **[Github Page](https://michaeldfaber.github.io/simpleSlideShow/).**
