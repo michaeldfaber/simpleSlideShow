@@ -90,7 +90,7 @@
                     }
                 }
             });
-
+            
             if(index == max) 
             {
                 index = 0;
