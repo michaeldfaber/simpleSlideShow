@@ -1,6 +1,6 @@
 {
   "name": "simpleslideshow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A jQuery Plugin for Simple Slide Shows.",
   "main": "simpleSlideShow.js",
   "repository": {
