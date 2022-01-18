@@ -4,6 +4,7 @@
  * simpleSlideShow jQuery Plugin
 */
 
+import jQuery from "jquery";
 (function ( $ ) {
  
     $.fn.simpleSlideShow = function(options) {
