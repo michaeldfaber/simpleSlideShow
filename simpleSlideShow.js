@@ -47,7 +47,7 @@
         var firstImgHTML = "<img value='0'" + "class='simpleSlideShowElement' src='" + urls[0] + imgHTMLend;
         this.append(firstImgHTML);
 
-        for(i = 1; i <= max; i++) 
+        for(let i = 1; i <= max; i++) 
         {
             var imgHTML = "<img value='" + i + "' class='simpleSlideShowElement' src='" + urls[i] + imgHTMLend;
             this.append(imgHTML);
